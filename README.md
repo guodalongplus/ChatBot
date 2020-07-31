@@ -1,5 +1,6 @@
 ![display](https://github.com/guodalongplus/ChatBot/blob/master/pic/1.png)
 ![display](https://github.com/guodalongplus/ChatBot/blob/master/pic/1.png)
+<p>
 demo_data:      不同大小的语料信息
 pic:            神经网络结构图片
 pickle_and_h5:  序列化的语料信息训练好的模型
@@ -18,4 +19,4 @@ tensorflow  '2.1.0'
 4.(one_hot_encoder)将问答句进行编码 注意目标序列需要和回答的句子相差一个时间步长
 5.(create_model)搭建模型
 6.(response)因为我们的模型的输入和输出都是向量，所以需要对输入的句子进行向量化和对输出的结果进行反推找到它对应的文字。
-7.可以在cmd测试效果或者在ui目录下的app.py在网页访问
+7.可以在cmd测试效果或者在ui目录下的app.py在网页访问</p>
